@@ -34,7 +34,7 @@ def load_agent_config(
 
 rag_conf = load_rag_config()
 chroma_conf = load_chroma_config()
-prompts = load_prompts_config()
+prompts_conf = load_prompts_config()
 agent = load_agent_config()
 
 if __name__=='__main__':
